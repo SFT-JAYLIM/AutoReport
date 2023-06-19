@@ -1,6 +1,5 @@
 function Status=AutoReport_SFD(UserPath, InputDataPath)
         
-    % ---------------------------------------------- main function -------------------------------------------------------------------
     try
         ProcessID=[];
         objExcel = actxserver('Excel.Application');
